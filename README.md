@@ -1,12 +1,9 @@
-# NomadLink-MIPA
-NomadLink Modular Independent Power Architecture (MIPA) — Created by Aaron Dean Whitman. Open-source, modular, scalable renewable energy system architecture for everything from survival to skyscrapers.
-
 # NomadLink MIPA
 **NomadLink Modular Independent Power Architecture**
 **Created by Aaron Dean Whitman**
 
 
-> Open‑source, modular, zone‑based renewable power architecture — from bicycle to skyscraper — designed to operate fully islanded with optional, user‑controlled interties (aka “shore power”).
+> Open‑source, modular, zone‑based renewable power architecture — from basic survival to skyscraper — designed to operate fully islanded with optional, user‑controlled interties (aka “shore power”).
 
 
 ## What is NomadLink MIPA?
