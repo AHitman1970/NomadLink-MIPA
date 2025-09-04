@@ -1,0 +1,44 @@
+# NomadLink-DataBridge — Yggdrasil Config Template
+# Author: Aaron Dean Whitman (2025)
+# Purpose: Reference Yggdrasil configuration for both Laptop (Linux) and Phone (Android/Termux).
+# Notes: Replace <YOUR_PRIVATE_KEY> and <YOUR_PEERS> with actual values.
+
+# Node identity
+PrivateKey: <YOUR_PRIVATE_KEY>
+PublicKey: auto
+
+# Listen addresses
+# On Linux laptop
+Listen:
+  - tcp://0.0.0.0:0
+  - unix:///var/run/yggdrasil.sock
+
+# On Android (Termux), typically:
+# Listen:
+#   - tcp://127.0.0.1:0
+#   - unix:///data/data/com.termux/files/usr/var/run/yggdrasil.sock
+
+# Peers (add one or more public bootstrap peers, or your own)
+Peers:
+  - tls://yggdrasil-bootstrap-1.example.org:443
+  - tls://yggdrasil-bootstrap-2.example.org:443
+  # Add your laptop<->phone peer addresses here
+
+# Multicast
+MulticastInterfaces:
+  - Regex: ".*"
+    Beacon: true
+    Listen: true
+
+# Admin interface
+AdminListen: unix:///var/run/yggdrasil-admin.sock
+
+# Encryption
+SessionFirewall:
+  Enable: true
+  AllowFrom:
+    - ::/0
+
+# Optional tunneling
+TunnelRouting:
+  Enable: false
