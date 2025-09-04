@@ -50,3 +50,46 @@ nomadlink-mipa/
 │   └── provisional-patent-draft.md
 └── LICENSES/
     └── attribution-clause.txt
+---
+
+# Exoform / Highland Ember — Linked Projects
+**Author:** Aaron Dean Whitman  
+**Timestamp:** 2025  
+
+---
+
+## 1. Overview
+This repository contains the **NomadLink-MIPA Exoform** project (open-source powered exosuit architecture) and its linked creative/technical sibling project **Highland Ember**.  
+
+Both projects are tied by the principle of **modular, open systems**:  
+- **Exoform** — mechanized extension of the human body (engineering focus).  
+- **Highland Ember** — cultural, narrative, and symbolic framework (creative focus).  
+
+---
+
+## 2. Linkage
+- Highland Ember provides the **mythos, branding, and narrative** identity.  
+- Exoform provides the **technical, mechanical, and software** implementation.  
+- Together they represent **applied open-source creativity**: technology and culture unified.
+
+---
+
+## 3. Current Status
+- ✅ EM-Muscle module declaration.  
+- ✅ EM-Muscle technical specification.  
+- ✅ EM-Muscle BOM.  
+- ✅ EM-Muscle control stub.  
+- ✅ Test plan and safety checklist.  
+- ✅ Integration doc.  
+
+Next steps:
+- Add more modules (control, vision, AI layers).  
+- Extend Highland Ember narrative docs into `/docs/highland_ember/`.  
+- Create linkage README in both directories.  
+
+---
+
+## 4. Attribution
+All works © Aaron Dean Whitman (2025) under open Exoform/Highland Ember license.  
+Please credit **“Exoform (Whitman, 2025)”** in derived works.
+
