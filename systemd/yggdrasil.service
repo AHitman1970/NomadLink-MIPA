@@ -1,0 +1,25 @@
+[Unit]
+Description=Yggdrasil encrypted IPv6 overlay (NomadLink-DataBridge)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Adjust the binary path if your distro uses a different location
+ExecStart=/usr/bin/yggdrasil -useconffile /etc/yggdrasil/yggdrasil.conf
+Restart=on-failure
+RestartSec=3
+# Hardening (optional, may require tweaks depending on distro)
+NoNewPrivileges=true
+PrivateDevices=true
+ProtectSystem=full
+ProtectHome=true
+ProtectControlGroups=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectClock=true
+MemoryDenyWriteExecute=true
+LockPersonality=true
+
+[Install]
+WantedBy=multi-user.target
