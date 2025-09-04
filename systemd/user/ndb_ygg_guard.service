@@ -1,0 +1,12 @@
+[Unit]
+Description=NomadLink-DataBridge guard (ensures Yggdrasil overlay presence, prints status)
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=%h/NomadLink-MIPA/scripts/ndb_status.sh
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
