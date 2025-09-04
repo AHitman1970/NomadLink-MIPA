@@ -1,0 +1,18 @@
+Category,Item,Specification,Qty,Source
+Motor,BLDC outrunner/inrunner,48–72 V, 2–5 kW continuous,1 per joint,ODrive/Flipsky/VESC vendors
+Gearbox,Strain-wave (harmonic drive),Ratio 50:1–100:1,1 per rotary joint,Harmonic Drive Systems, Nidec
+Coupler,Series elastic element,Steel flexure or elastomeric,1 per joint,Custom/3D print + steel spring
+Encoder,Magnetic absolute,AS5047/AS5600 (14-bit),1 per motor,AMS
+Brake,Electromagnetic fail-safe,48 V, 2–5 Nm hold,1 per joint,Ogura/Chaintail
+Controller,VESC-class CAN-FD,FOC, current/position loops,1 per motor,VESC project vendors
+Power,Battery pack,48–72 V LiFePO₄, 30–50 Ah,1–2 packs,Battery vendors
+BMS,Smart BMS,48–72 V with CAN telemetry,1,Battery protection vendor
+Frame,Mounting struts,6061-T6 aluminum or carbon tube,Per joint,Local machine shop/DIY
+Fasteners,Bolts/nuts,Grade 12.9 M4–M8,Varies,McMaster-Carr
+Sensor,Load cell,HX711 with 50–100 kg strain gauge,4 per foot,Open-source HX711 boards
+Sensor,IMU,9DoF (MPU-9250/BMI-160),1 per segment,Adafruit/DFRobot
+Compute,SBC,Raspberry Pi 4/CM4 or ROCK5B,1–2,Pi vendors
+Compute,MCU,STM32/ESP32,1 per pod,Open-source boards
+Harness,Cables,Shielded twisted pair, CAN/Ethernet,Per run,Electronics suppliers
+Cooling,Fan/heat sink,For motor + controller,As needed,Electronics suppliers
+Safety,E-STOP,Normally-closed, latching,1,Automation vendors
